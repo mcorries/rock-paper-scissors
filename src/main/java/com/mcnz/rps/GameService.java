@@ -7,15 +7,15 @@ public class GameService {
 		
 		String result = "error";
 		if (clientGesture.equals("scissors")) {
-			result = "lose";
-		}
-		if (clientGesture.equals("paper")) {
 			result = "win";
 		}
-		if (clientGesture.equals("rock")) {
+		if (clientGesture.equals("paper")) {
 			result = "tie";
 		}
-		GameSummary gameSummary = new GameSummary(clientGesture, "rock", result);
+		if (clientGesture.equals("rock")) {
+			result = "lose";
+		}
+		GameSummary gameSummary = new GameSummary(clientGesture, "paper", result);
 		return gameSummary;
 	}
 
