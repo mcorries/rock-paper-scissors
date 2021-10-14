@@ -19,17 +19,17 @@ public class DesktopGame {
 				score.increaseLosses();
 			}
 			if (input.equals(Gesture.paper.toString())) {
-				result = "win";
+				result = "tien";
 				score.increaseWins();
 			}
 			if (input.equals(Gesture.rock.toString())) {
-				result = "tie";
+				result = "win";
 				score.increaseTies();
 			}
 			if (input.equalsIgnoreCase("quit")) {
 				break;
 			}
-			GameSummary gs = new GameSummary(input, "rock", result);
+			GameSummary gs = new GameSummary(input, "paper", result);
 			history.add(gs);
 
 			JOptionPane.showMessageDialog(null, result);
