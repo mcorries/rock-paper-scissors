@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Main {
+class RPS {
   public static void main(String[] args) {
     
 		//Initialize the Scanner and print a welcome message
