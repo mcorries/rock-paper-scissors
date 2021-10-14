@@ -1,6 +1,5 @@
 package com.mcnz.rps;
 
-import static org.junit.Assert.fail;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -33,10 +32,10 @@ public class ScoreTest {
 		Assert.assertTrue(score.toString().length()>0);
 	}
 	
-	@Test
-	public void testWillFail() {
-		
-		Assert.assertTrue(false);
-	}
+	//@Test
+	//public void testWillFail() {
+	//	
+	//	Assert.assertTrue(false);
+	//}
 
 }
