@@ -15,15 +15,15 @@ public class DesktopGame {
 			String result = "error";
 			String input = JOptionPane.showInputDialog(prompt);
 			if (input.equals(Gesture.scissors.toString())) {
-				result = "lose";
+				result = "win";
 				score.increaseLosses();
 			}
 			if (input.equals(Gesture.paper.toString())) {
-				result = "tien";
+				result = "tie";
 				score.increaseWins();
 			}
 			if (input.equals(Gesture.rock.toString())) {
-				result = "win";
+				result = "lose";
 				score.increaseTies();
 			}
 			if (input.equalsIgnoreCase("quit")) {
