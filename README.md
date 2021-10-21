@@ -30,3 +30,4 @@ And Another SCM Skip plugin with "Commit changes"
 .....
 Try this ^^^^ again
 Try again with "skip ci" comment
+Push update to Jenkins
