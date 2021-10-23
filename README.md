@@ -33,6 +33,8 @@ Try again with "skip ci" comment
 Push update to Jenkins
 Push update to Jenkins,again
 Again^^^^
+
+Test commit user Jenkins buld
 .....again
 And again^^^
 And Again^^^^
