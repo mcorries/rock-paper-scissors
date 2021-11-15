@@ -4,7 +4,10 @@ class RPS {
   public static void main(String[] args) {
     
 		//Initialize the Scanner and print a welcome message
-		Scanner in = new Scanner(System.in);		System.out.println("******** Welcome to ROCK, PAPER, SCISSORS! ********");
+		Scanner in = new Scanner(System.in);
+	  	System.out.println("******** Welcome to ROCK, PAPER, SCISSORS! ********");
+	        System.out.println("******** Welcome to ROCK, PAPER, SCISSORS! ********");
+	  	System.out.println("******** Welcome to ROCK, PAPER, SCISSORS! ********");
 
 		//Use a while(true) loop and only break the loop if the user wants to quit
 		while(true) {
