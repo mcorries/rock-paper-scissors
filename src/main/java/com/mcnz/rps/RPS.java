@@ -5,9 +5,11 @@ class RPS {
     
 		//Initialize the Scanner and print a welcome message
 		Scanner in = new Scanner(System.in);
-	  	System.out.println("---------------------------------------------------");
-	        System.out.println("-------- Welcome to ROCK, PAPER, SCISSORS! --------");
-	  	System.out.println("---------------------------------------------------");
+	  	System.out.println("------------------------------------------------------");
+	        System.out.println("-------- Welcome to ROCK, PAPER, SCISSORS! -----------");
+	  	System.out.println("------------------------------------------------------");
+	  	System.out.println(" This welcome message has 2 lines added, re-compiled  ");
+		System.out.println("	 by Maven on Jenkin via a Github push action      ");
 
 		//Use a while(true) loop and only break the loop if the user wants to quit
 		while(true) {
