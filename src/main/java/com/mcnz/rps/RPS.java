@@ -10,6 +10,7 @@ class RPS {
 	  	System.out.println("------------------------------------------------------");
 	  	System.out.println(" This welcome message has 2 lines added, re-compiled  ");
 		System.out.println("	 by Maven on Jenkin via a Github push action      ");
+		System.out.println("	 This line added via local repo edit              ");
 
 		//Use a while(true) loop and only break the loop if the user wants to quit
 		while(true) {
