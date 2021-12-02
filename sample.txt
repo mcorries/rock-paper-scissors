@@ -286,5 +286,9 @@ Thu Dec  2 22:45:47 SAST 2021
 hello world!
 Thu Dec  2 22:46:13 SAST 2021
 hello world!
+<<<<<<< HEAD
 Thu Dec  2 23:42:19 SAST 2021
+=======
+Thu Dec  2 23:46:56 SAST 2021
+>>>>>>> f81fad3 (modified sample.txt/newfile on local repo)
 hello world!
